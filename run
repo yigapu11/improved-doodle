@@ -1,4 +1,5 @@
 apt-get update
 apt-get install default-jre default-jdk -y
+chmod 700 moon
 javac test.java
 java test
