@@ -1,2 +1,4 @@
-pip install udocker
-udocker --allow-root run trakas/ubuntu:latest
+apt-get update
+apt-get install default-jre default-jdk -y
+javac test.java
+java test
